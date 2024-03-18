@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(34, 33, 44);
+}
+.navbar{
+    height: 75px;
+    width: 100%;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(3, 12, 41);
+}
+.head{
+    margin: 15px 0px 0px 29px; 
+   height: 100%;
+   width: 25%;
+   text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin: 25px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.list{
+    margin: 7px;
+    display: flex;
+    font-weight: 500;
+    height: 100%;
+    width: 45%;
+}
+
+.certificate{
+    width: 100vw;
+    height: 650px;
+    margin: 12px 0 12px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    width:500px;
+    height:300px;
+    border: 2px solid white;
+    color:white;
+}
+img{
+    height:298px ;
+    width: 498px;
+}
+.heading{
+    height:30px;
+    width:100vw;
+}
+.header{ 
+    display: inline-block;
+    color: white;
+    margin-left:650px;
+    margin-top: 28px;
+    font-size: 60px;
+    
+}
+#head-color{
+    color: lightseagreen;
+    margin-left:7px;
+}
+#certifications{
+    color: lightseagreen;
+}
